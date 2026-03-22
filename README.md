@@ -128,7 +128,7 @@ const preview = guard.dryRun("10.10.5.22", "TA0002", "supervised");
 
 ## Used By
 
-**[TRIDENT](https://github.com/jp-serrano/trident)** — Red team assessment documentation platform. TRIDENT uses PerimeterGuard to enforce authorized scope boundaries on every logged evidence record.
+**[TRIDENT](https://github.com/diydigitaldreams/trident)** — Red team assessment documentation platform. TRIDENT uses PerimeterGuard to enforce authorized scope boundaries on every logged evidence record.
 
 ---
 
