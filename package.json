@@ -1,0 +1,29 @@
+{
+  "name": "perimeterguard",
+  "version": "1.0.0",
+  "description": "Zero-dependency scope enforcement library for security assessment tooling",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "license": "MIT",
+  "author": "Jean Paul Serrano Melendez",
+  "keywords": ["security", "pentest", "scope", "authorization", "cidr"],
+  "files": ["dist"],
+  "scripts": {
+    "build": "tsc",
+    "test": "jest",
+    "test:coverage": "jest --coverage",
+    "lint": "tsc --noEmit"
+  },
+  "devDependencies": {
+    "@types/jest": "^29.5.0",
+    "jest": "^29.5.0",
+    "ts-jest": "^29.1.0",
+    "typescript": "^5.0.0"
+  },
+  "jest": {
+    "preset": "ts-jest",
+    "testEnvironment": "node",
+    "testMatch": ["**/test/**/*.test.ts"],
+    "collectCoverageFrom": ["src/**/*.ts"]
+  }
+}
